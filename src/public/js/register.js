@@ -1,8 +1,9 @@
-const form = document.getElementById("formContainer");
+const form = document.getElementById("reg-form");
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const name = document.getElementById("Name").value;
   const username = document.getElementById("Username").value;
+  const email = document.getElementById("Email").value;
   const password = document.getElementById("Password").value;
 
   const result = await fetch("/user/register", {
@@ -13,6 +14,7 @@ form.addEventListener("submit", async (e) => {
     body: JSON.stringify({
       name,
       username,
+      email,
       password,
     }),
   }).then((res) => res.json());

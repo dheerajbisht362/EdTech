@@ -48,7 +48,7 @@ router.post("/login", async (req, res) => {
 });
 
 router.post("/register", async (req, res) => {
-  const { name, username, password: plainTextPassword } = req.body;
+  const { name, username, email, password: plainTextPassword } = req.body;
 
   if (!username || typeof username !== "string") {
     return res.json({ status: "error", error: "Invalid username" });
@@ -64,7 +64,14 @@ router.post("/register", async (req, res) => {
   }
   const password = await bcrypt.hash(plainTextPassword, 10);
   try {
-    const user = await User.create({ name, username, password });
+    const user = await User.create({ name, username, email, password });
+    const userUpdate = await User.findByIdAndUpdate(
+      user._id,
+      { active: true },
+      {
+        new: true,
+      }
+    ).lean();
     res.json({ status: "ok", data: user });
   } catch (error) {
     // if (error.code === 11000) {
