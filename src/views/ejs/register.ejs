@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EdTech | Register</title>
+    <link rel="stylesheet" href="/static/css/register.css" />
+  </head>
+  <body>
+    <main id="reg">
+      <div id="reg-box">
+        <div id="reg-text">
+          <p class="reg-head">CREATE A NEW ACCOUNT</p>
+        </div>
+        <form id="reg-form">
+          <input type="text" placeholder="Enter your name" id="Name" />
+          <input type="text" placeholder="Username" id="Username" />
+          <input type="email" placeholder="Email" id="Email" />
+          <input type="password" placeholder="Password" id="Password" />
+          <input class="reg-btn" type="submit" value="Register" />
+        </form>
+        <div id="alert"></div>
+        <br />
+        <br />
+        <p style="text-align: center">
+          Already have an account <span onclick="loginPage()">click Here</span>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="/static/js/register.js"></script>

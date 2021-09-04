@@ -10,11 +10,11 @@ const router = express.Router();
 
 //register form
 router.get("/register", async (req, res) => {
-  res.render("display/register");
+  res.render("ejs/register");
 });
 
 router.get("/login", async (req, res) => {
-  res.render("display/login");
+  res.render("ejs/login");
 });
 
 router.post("/login", async (req, res) => {
