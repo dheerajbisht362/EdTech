@@ -8,7 +8,7 @@ const JWT_SECRET =
 
 const router = express.Router();
 
-//signup form
+//register form
 router.get("/register", async (req, res) => {
   res.render("display/register");
 });
