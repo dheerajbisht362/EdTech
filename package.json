@@ -1,0 +1,34 @@
+{
+  "name": "edtech",
+  "version": "1.0.0",
+  "description": "Bluelearn Hackathon",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajbisht362/EdTech.git"
+  },
+  "keywords": [
+    "hackathon",
+    "edtech",
+    "express",
+    "node",
+    "mongodb"
+  ],
+  "author": "Deevanshu Kumawat, Dheeraj Bisht, Santosh Mane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajbisht362/EdTech/issues"
+  },
+  "homepage": "https://github.com/dheerajbisht362/EdTech#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15"
+  }
+}
