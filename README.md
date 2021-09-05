@@ -13,22 +13,29 @@ So we have extensive roadmap to learn any technologies outthere. User can see ex
     express  framework for Node.js
     mongoose library for writing API
     mongoDB for database
+    vis-network to implement tree on roadmap
 
 ## Steps for installation
 
-- Clone the project
+-   Clone the project
+
 ```bash
 git clone https://github.com/dheerajbisht362/EdTech/
 ```
-- Install npm packages
+
+-   Install npm packages
+
 ```bash
 npm install
 ```
-- Run the server
+
+-   Run the server
+
 ```bash
 npm start
 ```
-- View in Browser - http://localhost:3000/
+
+-   View in Browser - http://localhost:3000/
 
 ## App/Web link if hosted (recommended but optional)
 
