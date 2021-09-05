@@ -1,53 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
-	</head>
-	<script type="text/javascript"></script>
-	<style>
-		a {
-			padding: 12px;
-			text-decoration: none;
-			color: rgb(49, 27, 27);
-		}
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script type="text/javascript"></script>
+  <style>
+    a {
+      /* padding: 12px; */
+      text-decoration: none;
+      color: rgb(49, 27, 27);
+    }
+    body {
+      margin: 0;
+    }
 
-		li {
-			margin: 6%;
-			display: inline;
-		}
-		ul {
-			list-style-type: none;
-		}
+    #navbar > ul > li {
+      margin: 1%;
+    }
+    #navbar > ul {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+    }
 
-		.transform {
-			background-color: red;
-		}
+    .transform {
+      background-color: red;
+    }
 
-		button {
-			margin: 0 6%;
-			background-color: #074666;
-			padding: 12px;
-			color: white;
-		}
-		.navbarDes {
-			background-color: #cadae2;
-		}
-		.active {
-			background-color: #5093b4;
-		}
-	</style>
-	<body>
-		<div class="navbarDes">
-			<ul>
-				<li><a href="#" class="link" id="back">Go Back</a></li>
-				<li><a href="#" class="link" id="quiz">Take Quiz</a></li>
-				<li><a href="#" class="link" id="desc">Description</a></li>
-				<li><a href="#" class="link" id="dash">Dashboard</a></li>
-				<button>Sign out</button>
-			</ul>
-		</div>
-	</body>
+    #logout {
+      margin: 0 6%;
+      background-color: #074666;
+      padding: 12px;
+      color: white;
+    }
+    #navbar {
+      background-color: #cadae2;
+      position: fixed;
+      width: 100%;
+    }
+    .active {
+      background-color: #5093b4;
+    }
+  </style>
+  <body>
+    <div id="navbar">
+      <ul>
+        <li><a href="#" class="link" id="back">Go Back</a></li>
+        <li><a href="#" class="link" id="quiz">Take Quiz</a></li>
+        <li><a href="#" class="link" id="desc">Description</a></li>
+        <li><a href="#" class="link" id="dash">Dashboard</a></li>
+        <li><a href="#" class="link" id="logout">Logout</a></li>
+      </ul>
+    </div>
+  </body>
 </html>
