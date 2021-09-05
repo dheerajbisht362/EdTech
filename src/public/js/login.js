@@ -18,7 +18,7 @@ form.addEventListener("submit", async (e) => {
 	if (result.status === "ok") {
 		localStorage.setItem("token", JSON.stringify(result.data));
 
-		return (window.location.href = "/jsDescription");
+		return (window.location.href = "/fullStackRoadMap");
 		// alert("success");
 	}
 

@@ -1,0 +1,182 @@
+<html>
+	<head>
+		<script
+			type="text/javascript"
+			src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
+		></script>
+
+		<style type="text/css">
+			#mynetwork {
+				height: 600px;
+				border: 1px solid lightgray;
+			}
+			#navbar > ul > li > a {
+				/* padding: 12px; */
+				text-decoration: none;
+				color: #000;
+			}
+			body {
+				margin: 0;
+			}
+
+			#navbar > ul > li {
+				padding: 1%;
+			}
+			#navbar > ul {
+				display: flex;
+				justify-content: space-around;
+				list-style-type: none;
+				margin: 0;
+			}
+
+			.transform {
+				background-color: red;
+			}
+
+			#logout {
+				margin: 0 6%;
+				background-color: #b59eb0;
+				padding: 12px;
+			}
+			#navbar {
+				background-color: #cadae2;
+				position: absolute;
+				width: 100%;
+			}
+			.active {
+				background-color: #5093b4;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="navbar">
+			<ul>
+				<li id="back"><a href="#" class="link">Home</a></li>
+				<li id="fullStack">
+					<a href="/fullStackRoadMap" class="link"
+						>Full-Stack RoadMap</a
+					>
+				</li>
+				<li id="desc">
+					<a href="/jsDescription" class="link">Front-End RoadMap</a>
+				</li>
+				<li id="dash"><a href="#" class="link">Back-End RoadMap</a></li>
+				<li id="logout">
+					<a href="./" onclick="signout()" class="link">Sign Out</a>
+				</li>
+			</ul>
+		</div>
+		<div id="mynetwork"></div>
+
+		<script type="text/javascript">
+			var nodes = new vis.DataSet([
+				{ id: 1, label: "Full-Stack Web Development", x: 0, y: 200 },
+				{ id: 2, label: "Front-end " },
+				{ id: 3, label: "Back-end" },
+				{ id: 4, label: "Database" },
+				{ id: 5, label: "HTML" },
+				{ id: 6, label: "CSS" },
+				{ id: 7, label: "BootStrap" },
+				{ id: 8, label: "Tailwind" },
+				{ id: 9, label: "ES6" },
+				{ id: 10, label: "TypeScript" },
+				{ id: 11, label: "JS-FrameWorks" },
+				{ id: 12, label: "Angular JS" },
+				{ id: 13, label: "React JS" },
+				{ id: 14, label: "Vue JS" },
+				{ id: 15, label: "NodeJS" },
+				{ id: 16, label: "ExpressJS" },
+				{ id: 17, label: "Python" },
+				{ id: 18, label: "Django" },
+				{ id: 19, label: "SQL" },
+				{ id: 20, label: "MySQL" },
+				{ id: 21, label: "NoSQL" },
+				{ id: 22, label: "MongoDB" },
+				{ id: 23, label: "JavaScript" },
+			]);
+
+			// create an array with edges
+			var edges = new vis.DataSet([
+				{ from: 1, to: 2 },
+				{ from: 1, to: 3 },
+				{ from: 1, to: 4 },
+				{ from: 2, to: 5 },
+				{ from: 2, to: 6 },
+				{ from: 2, to: 23 },
+				{ from: 6, to: 7 },
+				{ from: 6, to: 8 },
+				{ from: 23, to: 9 },
+				{ from: 23, to: 10 },
+				{ from: 23, to: 11 },
+				{ from: 11, to: 12 },
+				{ from: 11, to: 13 },
+				{ from: 11, to: 14 },
+				{ from: 3, to: 15 },
+				{ from: 15, to: 16 },
+				{ from: 3, to: 17 },
+				{ from: 17, to: 18 },
+				{ from: 4, to: 19 },
+				{ from: 19, to: 20 },
+				{ from: 4, to: 21 },
+				{ from: 21, to: 22 },
+			]);
+
+			// create a network
+			var container = document.getElementById("mynetwork");
+
+			// provide the data in the vis format
+			var data = {
+				nodes: nodes,
+				edges: edges,
+				layout: {
+					hierarchical: true,
+				},
+			};
+			var options = {};
+
+			// initialize your network!
+			var network = new vis.Network(container, data, options);
+
+			network.on("doubleClick", newfun);
+
+			function newfun(el) {
+				if (el.nodes[0] == 23) window.location.href = "/jsDescription";
+			}
+			var options = {
+				layout: {
+					randomSeed: undefined,
+					improvedLayout: true,
+					clusterThreshold: 150,
+					hierarchical: {
+						enabled: false,
+						nodeSpacing: 100,
+						treeSpacing: 200,
+						edgeMinimization: true,
+						direction: "UD", // UD, DU, LR, RL
+						sortMethod: "hubsize", // hubsize, directed
+						shakeTowards: "leaves", // roots, leaves
+					},
+				},
+				nodes: {
+					shape: "box",
+					size: 30,
+				},
+			};
+
+			network.setOptions(options);
+			var options = {
+				joinCondition: function (nodeOptions) {
+					return nodeOptions.cid === 1;
+				},
+			};
+
+			network.clustering.cluster(options);
+		</script>
+	</body>
+</html>
+<script>
+	document.getElementById("fullStack").classList.add("active");
+	function signout() {
+		window.location.href = "./";
+	}
+</script>
