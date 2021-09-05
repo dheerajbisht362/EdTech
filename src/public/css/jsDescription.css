@@ -1,0 +1,13 @@
+.container {
+	padding: 20px;
+	padding-top: 6%;
+}
+.padding20 {
+	padding: 0px 20px;
+}
+p {
+	width: 80%;
+}
+* {
+	font-family: "Open Sans", sans-serif;
+}

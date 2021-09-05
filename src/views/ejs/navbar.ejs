@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<script type="text/javascript"></script>
+	<style>
+		#navbar > ul > li > a {
+			/* padding: 12px; */
+			text-decoration: none;
+			color: #000;
+		}
+		body {
+			margin: 0;
+		}
+
+		#navbar > ul > li {
+			padding: 1%;
+		}
+		#navbar > ul {
+			display: flex;
+			justify-content: space-around;
+			list-style-type: none;
+			margin: 0;
+		}
+
+		.transform {
+			background-color: red;
+		}
+
+		#logout {
+			margin: 0 6%;
+			background-color: #b59eb0;
+			padding: 12px;
+		}
+		#navbar {
+			background-color: #cadae2;
+			position: fixed;
+			width: 100%;
+		}
+		.active {
+			background-color: #5093b4;
+		}
+	</style>
+	<body>
+		<div id="navbar">
+			<ul>
+				<li id="back">
+					<a href="/fullStackRoadMap" class="link">Home</a>
+				</li>
+				<li id="quiz"><a href="/jsQuiz" class="link">Take Quiz</a></li>
+				<li id="desc">
+					<a href="/jsDescription" class="link">Description</a>
+				</li>
+				<li id="dash"><a href="#" class="link">Dashboard</a></li>
+				<li id="logout"><a href="./" class="link">Sign Out</a></li>
+			</ul>
+		</div>
+	</body>
+</html>
