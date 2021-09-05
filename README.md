@@ -13,22 +13,29 @@ So we have extensive roadmap to learn any technologies outthere. User can see ex
     express  framework for Node.js
     mongoose library for writing API
     mongoDB for database
+    vis-network to implement tree on roadmap
 
 ## Steps for installation
 
-- Clone the project
+-   Clone the project
+
 ```bash
 git clone https://github.com/dheerajbisht362/EdTech/
 ```
-- Install npm packages
+
+-   Install npm packages
+
 ```bash
 npm install
 ```
-- Run the server
+
+-   Run the server
+
 ```bash
 npm start
 ```
-- View in Browser - http://localhost:3000/
+
+-   View in Browser - http://localhost:3000/
 
 ## App/Web link if hosted (recommended but optional)
 
@@ -49,6 +56,10 @@ https://drive.google.com/file/d/1cTVgfFSd7ya535WA1sD-XlYJAifbTj22/view?usp=shari
 #### Log In
 
 ![Log In](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_19%20PM.png)
+
+#### Full-stack Web Dev Roadmap
+
+![Full-stack Web Dev Roadmap](https://github.com/dheerajbisht362/Template/blob/master/localhost_3000_fullStackRoadMap%20-%20Brave%2005-Sep-21%206_37_15%20PM.png)
 
 #### Description of JavaScript
 
