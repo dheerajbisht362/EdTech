@@ -39,6 +39,10 @@ video is accessible for anyone with the link.
 
 ![Log In](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_19%20PM.png)
 
+#### Full-stack Web Dev Roadmap
+
+![Full-stack Web Dev Roadmap](https://github.com/dheerajbisht362/Template/blob/master/localhost_3000_fullStackRoadMap%20-%20Brave%2005-Sep-21%206_37_15%20PM.png)
+
 #### Description of JavaScript
 
 ![Description of JavaScript](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_33%20PM.png)
