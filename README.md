@@ -1,21 +1,48 @@
-# Project Name
+# Specialized Readmap
 
 ## Aboout the Project
-// here goes a short description
+
+We usually find plethora of resources present available online. Its easy to start but we often get confused which tech to learn first and prerequisite requires also make difficult to understand.  
+So we have extensive roadmap to learn any technologies outthere. User can see extensive roadmap of technologies then user can select topic and learn more about he will get all the resources curated at one place. After that they can take quiz after learning and if they score will it will added to dashboard and they can proceed further to learn topics ahead.
 
 ## Technologies used
-// list of technologies, frameworks, libraries, opensource code with links
+
+    bcryptjs , jsonwebtoken to authenticate and decrypt user credentials
+    cors middleware to enable CORS
+    ejs to make our code mudular
+    express  framework for Node.js
+    mongoose library for writing API
+    mongoDB for database
 
 ## Steps for installation
-// step by step procedure with prequisiites for installation of the product 
-on a local enviornment
+
+Need to clone our git repo and then on the git terminal put command **npm install** then **npm start** to start server. Then you are all set you can put this url _http://localhost:3000/_ on browser.
 
 ## App/Web link if hosted (recommended but optional)
 
 ## Video Demo (Mandatory)
+
 // link of video demo. you can upload video on google drive. Make sure that
 video is accessible for anyone with the link.
 
 ## Screenshots (Mandatory)
-// Screenshots regarding your project. you can provide a drive folder link with
-screenshots or upload it on github itself.
+
+#### Home page
+
+![Home page](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_06%20PM.png)
+
+#### Sign Up
+
+![Sign Up](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_14%20PM.png)
+
+#### Log In
+
+![Log In](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_19%20PM.png)
+
+#### Description of JavaScript
+
+![Description of JavaScript](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_33%20PM.png)
+
+### Quiz for JavaScript
+
+![Quiz](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_49%20PM.png)
