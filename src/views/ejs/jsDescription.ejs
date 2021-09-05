@@ -1,173 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Javascript</title>
-    <link rel="stylesheet" href="/static/css/jsDescription.css" />
-    <!-- <script src="js/jquery.min.js" type="text/javascript"></script> -->
-  </head>
-  <body>
-    <%- include('navbar.ejs') -%>
-    <div class="container">
-      <h1>JavaScript</h1>
-      <p class="padding20">
-        JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled
-        programming language with first-class functions. JavaScript is the
-        programming language of the Web.JavaScript is easy to learn.<br />
-        While it is most well-known as the scripting language for Web pages,
-        many non-browser environments also use it, such as Node.js, Apache
-        CouchDB and Adobe Acrobat. JavaScript is a prototype-based,
-        multi-paradigm, single-threaded, dynamic language, supporting
-        object-oriented, imperative, and declarative (e.g. functional
-        programming) styles. Read more about JavaScript.
-      </p>
-      <h1>JavaScript guide</h1>
-      <div>
-        <h2>For complete beginners</h2>
-        <ul>
-          <li>
-            <h3>JavaScript first steps</h3>
-            <p>
-              Answers some fundamental questions such as "what is JavaScript?",
-              "what does it look like?", and "what can it do?", along with
-              discussing key JavaScript features such as variables, strings,
-              numbers, and arrays.
-            </p>
-          </li>
-          <li>
-            <h3>Data Types in JavaScript</h3>
-            <p>
-              In Javascript, there are five basic, or primitive, types of data.
-              The five most basic types of data are strings, numbers, booleans,
-              undefined, and null.
-            </p>
-          </li>
-          <li>
-            <h3>Introducing JavaScript objects</h3>
-            <p>
-              The object-oriented nature of JavaScript is important to
-              understand if you want to go further with your knowledge of the
-              language and write more efficient code, therefore we've provided
-              this module to help you.
-            </p>
-          </li>
-          <li>
-            <h3>Asynchronous JavaScript</h3>
-            <p>
-              Discusses asynchronous JavaScript, why it is important, and how it
-              can be used to effectively handle potential blocking operations
-              such as fetching resources from a server.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2>Intermediate</h2>
-        <ul>
-          <li>
-            <h3>Understanding client-side JavaScript frameworks</h3>
-            <p>
-              JavaScript frameworks are an essential part of modern front-end
-              web development, providing developers with proven tools for
-              building scalable, interactive web applications. This module gives
-              you some fundamental background knowledge about how client-side
-              frameworks work and how they fit into your toolset, before moving
-              on to tutorial series covering some of today's most popular ones.
-            </p>
-          </li>
-          <li>
-            <h3>JavaScript data structures</h3>
-            <p>Overview of available data structures in JavaScript.</p>
-          </li>
-          <li>
-            <h3>Closures, apply, call, and bind methods</h3>
-            <p>
-              A closure is the combination of a function and the lexical
-              environment within which that function was declared. We can write
-              a common method for object and use within that using
-              call/apply/bind method.
-            </p>
-          </li>
-          <li>
-            <h3>JavaScript Prototype</h3>
-            <p>
-              When an object is created in JavaScript, JavaScript engine adds a
-              __proto__ property to the newly created object which is called
-              dunder proto. dunder proto or __proto__ points to the prototype
-              object of the constructor function.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2>Advanced</h2>
-        <ul>
-          <li>
-            <h3>Inheritance and the prototype chain</h3>
-            <p>
-              Explanation of the widely misunderstood and under-estimated
-              prototype-based inheritance.
-            </p>
-          </li>
-          <li>
-            <h3>Memory Management</h3>
-            <p>Memory life cycle and garbage collection in JavaScript.</p>
-          </li>
-          <li>
-            <h3>Currying</h3>
-            <p>
-              Currying is a technique of evaluating the function with multiple
-              arguments, into a sequence of function with a single argument.
-            </p>
-          </li>
-          <li>
-            <h3>Memoization</h3>
-            <p>
-              Memoization is a programming technique that attempts to increase a
-              function’s performance by caching its previously computed results.
-              Because JavaScript objects behave like associative arrays, they
-              are ideal candidates to act as caches.
-            </p>
-          </li>
-        </ul>
-      </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Javascript</title>
+		<link rel="stylesheet" href="/static/css/jsDescription.css" />
+	</head>
+	<body>
+		<%- include('navbar.ejs') -%>
+		<div class="container">
+			<h1>JavaScript</h1>
+			<p class="padding20">
+				JavaScript (JS) is a lightweight, interpreted, or just-in-time
+				compiled programming language with first-class functions.
+				JavaScript is the programming language of the Web.JavaScript is
+				easy to learn.<br />
+				While it is most well-known as the scripting language for Web
+				pages, many non-browser environments also use it, such as
+				Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a
+				prototype-based, multi-paradigm, single-threaded, dynamic
+				language, supporting object-oriented, imperative, and
+				declarative (e.g. functional programming) styles. Read more
+				about JavaScript.
+			</p>
+			<h1>JavaScript guide</h1>
+			<div>
+				<h2>For complete beginners</h2>
+				<ul>
+					<li>
+						<h3>JavaScript first steps</h3>
+						<p>
+							Answers some fundamental questions such as "what is
+							JavaScript?", "what does it look like?", and "what
+							can it do?", along with discussing key JavaScript
+							features such as variables, strings, numbers, and
+							arrays.
+						</p>
+					</li>
+					<li>
+						<h3>Data Types in JavaScript</h3>
+						<p>
+							In Javascript, there are five basic, or primitive,
+							types of data. The five most basic types of data are
+							strings, numbers, booleans, undefined, and null.
+						</p>
+					</li>
+					<li>
+						<h3>Introducing JavaScript objects</h3>
+						<p>
+							The object-oriented nature of JavaScript is
+							important to understand if you want to go further
+							with your knowledge of the language and write more
+							efficient code, therefore we've provided this module
+							to help you.
+						</p>
+					</li>
+					<li>
+						<h3>Asynchronous JavaScript</h3>
+						<p>
+							Discusses asynchronous JavaScript, why it is
+							important, and how it can be used to effectively
+							handle potential blocking operations such as
+							fetching resources from a server.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Intermediate</h2>
+				<ul>
+					<li>
+						<h3>Understanding client-side JavaScript frameworks</h3>
+						<p>
+							JavaScript frameworks are an essential part of
+							modern front-end web development, providing
+							developers with proven tools for building scalable,
+							interactive web applications. This module gives you
+							some fundamental background knowledge about how
+							client-side frameworks work and how they fit into
+							your toolset, before moving on to tutorial series
+							covering some of today's most popular ones.
+						</p>
+					</li>
+					<li>
+						<h3>JavaScript data structures</h3>
+						<p>
+							Overview of available data structures in JavaScript.
+						</p>
+					</li>
+					<li>
+						<h3>Closures, apply, call, and bind methods</h3>
+						<p>
+							A closure is the combination of a function and the
+							lexical environment within which that function was
+							declared. We can write a common method for object
+							and use within that using call/apply/bind method.
+						</p>
+					</li>
+					<li>
+						<h3>JavaScript Prototype</h3>
+						<p>
+							When an object is created in JavaScript, JavaScript
+							engine adds a __proto__ property to the newly
+							created object which is called dunder proto. dunder
+							proto or __proto__ points to the prototype object of
+							the constructor function.
+						</p>
+					</li>
+				</ul>
+			</div>
+			<div>
+				<h2>Advanced</h2>
+				<ul>
+					<li>
+						<h3>Inheritance and the prototype chain</h3>
+						<p>
+							Explanation of the widely misunderstood and
+							under-estimated prototype-based inheritance.
+						</p>
+					</li>
+					<li>
+						<h3>Memory Management</h3>
+						<p>
+							Memory life cycle and garbage collection in
+							JavaScript.
+						</p>
+					</li>
+					<li>
+						<h3>Currying</h3>
+						<p>
+							Currying is a technique of evaluating the function
+							with multiple arguments, into a sequence of function
+							with a single argument.
+						</p>
+					</li>
+					<li>
+						<h3>Memoization</h3>
+						<p>
+							Memoization is a programming technique that attempts
+							to increase a function’s performance by caching its
+							previously computed results. Because JavaScript
+							objects behave like associative arrays, they are
+							ideal candidates to act as caches.
+						</p>
+					</li>
+				</ul>
+			</div>
 
-      <div>
-        <h1>Links to Learn More On JavaScript</h1>
-        <h2>Recommended free video courses</h2>
-        <ul>
-          <li>
-            <div>
-              <a href="https://www.udemy.com/course/javascript-essentials/"
-                >Javascript Essentials</a
-              >
-              <p>Source - Udemy</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a href="https://www.udemy.com/course/programming-in-javascript/"
-                >Javascript: Beginner to Pro</a
-              >
-              <p>Source - Udemy</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <a
-                href="https://www.codecademy.com/learn/introduction-to-javascript"
-                >Learn JavaScript</a
-              >
-              <p>Source - Codecademy</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </body>
+			<div>
+				<h1>Links to Learn More On JavaScript</h1>
+				<h2>Recommended free video courses</h2>
+				<ul>
+					<li>
+						<div>
+							<a
+								href="https://www.udemy.com/course/javascript-essentials/"
+								>Javascript Essentials</a
+							>
+							<p>Source - Udemy</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a
+								href="https://www.udemy.com/course/programming-in-javascript/"
+								>Javascript: Beginner to Pro</a
+							>
+							<p>Source - Udemy</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<a
+								href="https://www.codecademy.com/learn/introduction-to-javascript"
+								>Learn JavaScript</a
+							>
+							<p>Source - Codecademy</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
 </html>
 <script>
-  document.getElementById("desc").classList.add("active");
+	document.getElementById("desc").classList.add("active");
 </script>
