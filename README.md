@@ -1,21 +1,33 @@
-# Project Name
+# Specialized Readmap
 
 ## Aboout the Project
-// here goes a short description
+
+We usually find plethora of resources present available online. Its easy to start but we often get confused which tech to learn first and prerequisite requires also make difficult to understand.  
+So we have extensive roadmap to learn any technologies outthere. User can see extensive roadmap of technologies then user can select topic and learn more about he will get all the resources curated at one place. After that they can take quiz after learning and if they score will it will added to dashboard and they can proceed further to learn topics ahead.
 
 ## Technologies used
-// list of technologies, frameworks, libraries, opensource code with links
+
+    bcryptjs , jsonwebtoken to authenticate and decrypt user credentials
+    cors middleware to enable CORS
+    ejs to make our code mudular
+    express  framework for Node.js
+    mongoose library for writing API
+    mongoDB for database
 
 ## Steps for installation
-// step by step procedure with prequisiites for installation of the product 
+
+// step by step procedure with prequisiites for installation of the product
 on a local enviornment
 
 ## App/Web link if hosted (recommended but optional)
 
 ## Video Demo (Mandatory)
+
 // link of video demo. you can upload video on google drive. Make sure that
 video is accessible for anyone with the link.
 
 ## Screenshots (Mandatory)
-// Screenshots regarding your project. you can provide a drive folder link with
-screenshots or upload it on github itself.
+
+#### Home page
+
+![Home page](https://drive.google.com/file/d/1Sf9YSVom14xk69xEj_0rxsDMeuJAv06S/view?usp=sharing)
