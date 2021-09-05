@@ -32,6 +32,18 @@ video is accessible for anyone with the link.
 
 ![Home page](https://drive.google.com/file/d/1Sf9YSVom14xk69xEj_0rxsDMeuJAv06S/view?usp=sharing)
 
-### Quiz
+#### Sign Up
+
+![Sign Up](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_14%20PM.png)
+
+#### Log In
+
+![Log In](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_19%20PM.png)
+
+#### Description of JavaScript
+
+![Description of JavaScript](https://drive.google.com/file/d/1Sf9YSVom14xk69xEj_0rxsDMeuJAv06S/view?usp=sharing)
+
+### Quiz for JavaScript
 
 ![Quiz](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_49%20PM.png)
