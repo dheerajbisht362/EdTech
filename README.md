@@ -22,8 +22,7 @@ Need to clone our git repo and then on the git terminal put command **npm instal
 
 ## Video Demo (Mandatory)
 
-// link of video demo. you can upload video on google drive. Make sure that
-video is accessible for anyone with the link.
+https://drive.google.com/file/d/1cTVgfFSd7ya535WA1sD-XlYJAifbTj22/view?usp=sharing
 
 ## Screenshots (Mandatory)
 
