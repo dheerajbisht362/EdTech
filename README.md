@@ -31,3 +31,7 @@ video is accessible for anyone with the link.
 #### Home page
 
 ![Home page](https://drive.google.com/file/d/1Sf9YSVom14xk69xEj_0rxsDMeuJAv06S/view?usp=sharing)
+
+### Quiz
+
+![Quiz](https://github.com/dheerajbisht362/Template/blob/master/EdTech%20_%20Home%20-%20Brave%2005-Sep-21%204_02_49%20PM.png)
