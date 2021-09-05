@@ -16,8 +16,7 @@ So we have extensive roadmap to learn any technologies outthere. User can see ex
 
 ## Steps for installation
 
-// step by step procedure with prequisiites for installation of the product
-on a local enviornment
+Need to clone our git repo and then on the git terminal put command **npm install** then **npm start** to start server. Then you are all set you can put this url _http://localhost:3000/_ on browser.
 
 ## App/Web link if hosted (recommended but optional)
 
