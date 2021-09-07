@@ -10,6 +10,7 @@ const jsDescriptionController = require("./controllers/jsDescription.controller"
 const jsQuizController = require("./controllers/jsQuiz.controller");
 const fullStackRoadMapController = require("./controllers/fullStackRoadMap.Controller");
 
+const PORT = process.env.PORT || 3000;
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -27,7 +28,7 @@ app.use("/fullStackRoadMap", fullStackRoadMapController);
 app.use("/jsDescription", jsDescriptionController);
 app.use("/jsQuiz", jsQuizController);
 
-app.listen(3000, async () => {
+app.listen(PORT, async () => {
 	await connect();
 	console.log("Server is running on port 3000");
 });
