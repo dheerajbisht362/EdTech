@@ -1,11 +1,10 @@
 [build]
-  publish = "src/views/ejs" # Set to the folder where your static assets are generated
-
+  command = "npm run start"
 [dev]
   command = "node src/server.js" # Start the Express server during development
 
 [[redirects]]
-  from = "/*"
-  to = "/src/controllers/homeController/:splat"
+  from = "/"
+  to = "/src/controllers/homeController"
   status = 200
   force = true
