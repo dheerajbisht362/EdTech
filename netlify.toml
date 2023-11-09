@@ -1,5 +1,5 @@
 [build]
-command = "npm run build" 
+  command = "echo 'No build step'" 
 
 [dev]
 command = "node src/server.js"
