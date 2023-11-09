@@ -4,6 +4,7 @@ const path = require("path");
 
 const connect = require("./configs/db");
 
+require('dotenv').config();
 const homeController = require("./controllers/home.controller");
 const userController = require("./controllers/user.controller");
 const jsDescriptionController = require("./controllers/jsDescription.controller");
