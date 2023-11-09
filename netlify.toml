@@ -1,5 +1,5 @@
 [build]
-  publish = "frontend/public" # Set to the folder where your static assets are generated
+  publish = "src/views/ejs" # Set to the folder where your static assets are generated
 
 [dev]
   command = "node src/server.js" # Start the Express server during development
