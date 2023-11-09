@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = () => {
   return mongoose.connect(
-    "mongodb+srv://teamEdtech:sYuzGe5HYk3IePfA@cluster0.jv5ho.mongodb.net/blueLearnDB?retryWrites=true&w=majority",
+    process.env.MONGO_URL,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
