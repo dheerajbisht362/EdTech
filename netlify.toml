@@ -1,5 +1,5 @@
 [build]
-  command = "echo 'No build step'" 
+  command = "node src/server.js" 
   publish = "frontend/public" # Set to the folder where your static assets are generated
 
 [dev]
