@@ -6,6 +6,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "/*"
+  to = "src/controllers/homeController/:splat"
   status = 200
-  force = true
